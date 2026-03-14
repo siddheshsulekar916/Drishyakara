@@ -1,8 +1,18 @@
 {
+    "cleanUrls": true,
+    "trailingSlash": false,
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/"
+            "source": "/contact",
+            "destination": "/contact.html"
+        },
+        {
+            "source": "/studio",
+            "destination": "/studio.html"
+        },
+        {
+            "source": "/tour",
+            "destination": "/tour.html"
         }
     ]
 }

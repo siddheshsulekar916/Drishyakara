@@ -3,16 +3,25 @@
     "trailingSlash": false,
     "rewrites": [
         {
+            "source": "/tour",
+            "destination": "/tour.html"
+        },
+        {
             "source": "/contact",
             "destination": "/contact.html"
         },
         {
             "source": "/studio",
             "destination": "/studio.html"
+        }
+    ],
+    "routes": [
+        {
+            "handle": "filesystem"
         },
         {
-            "source": "/tour",
-            "destination": "/tour.html"
+            "src": "/.*",
+            "dest": "/index.html"
         }
     ]
 }
